@@ -23,8 +23,9 @@ const CustomPagination = ({ setPage, numberOfPages = 10 }) => {
             <ThemeProvider theme={darkTheme}>
                 <Pagination
                     count={numberOfPages}
-                    onChange={(e) => handlePageChange(e.target.textContent)} />
-
+                    onChange={(e) => handlePageChange(e.target.textContent)} 
+                    color="primary"
+                    />
             </ThemeProvider>
         </div>
     )
