@@ -4,9 +4,9 @@ import Header from './components/Header/Header';
 import MainNav from './components/MainNav/MainNav';
 import Trending from './pages/Trending/Trending';
 
-import { Search } from '@mui/icons-material';
 import { Route, Routes } from "react-router-dom";
 import Movies from './pages/Movies/Movies';
+import Search from './pages/Search/Search';
 import Series from './pages/Series/Series';
 
 
