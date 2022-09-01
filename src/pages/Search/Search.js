@@ -98,7 +98,7 @@ const Search = () => {
           )
           )
         }
-        {!searchText && 
+        {searchText && 
         !content && 
         (type ? <h2> No Series Found </h2> : <h2> No Movies Found </h2>)
         }
