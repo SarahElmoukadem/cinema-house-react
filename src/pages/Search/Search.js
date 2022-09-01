@@ -13,7 +13,6 @@ import SingleContent from '../../components/SingleContent/SingleContent';
 const Search = () => {
 
   const [type, setType] = useState(0)
-  const [value, setValue] = useState(0);
   const [page, setPage] = useState(1);
   const [searchText, setSearchText] = useState('');
   const [content, setContent] = useState();
@@ -42,7 +41,7 @@ const Search = () => {
   useEffect(() => {
     window.scroll(0, 0);
     fetchSearch();
-
+    // eslint-disable-next-line
   }, [type, page])
 
   return (
@@ -99,7 +98,7 @@ const Search = () => {
           )
           )
         }
-        {searchText && 
+        {!searchText && 
         !content && 
         (type ? <h2> No Series Found </h2> : <h2> No Movies Found </h2>)
         }

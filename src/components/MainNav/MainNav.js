@@ -21,7 +21,7 @@ const MainNav = () => {
     }, [value,navigate])
 
     return (
-        <Box sx={{ width: '100vw', position: "fixed", bottom: 0, backgroundColor: "#2d313a", zIndex: 100 }} >
+        <Box sx={{ width: '100vw', position: "fixed", top: 0, backgroundColor: "#2d313a", zIndex: 100 }} >
             <BottomNavigation
                 showLabels
                 value={value}

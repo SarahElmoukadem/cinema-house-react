@@ -1,0 +1,64 @@
+/* .modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .paper {
+    width: 90%;
+    height: 80%;
+    background-color: #39445a;
+    border: 1px solid #282c34;
+    border-radius: 10;
+    color: white;
+    overflow: auto;
+  } */
+
+  .ContentModal__landscape {
+    object-fit: contain;
+    border-radius: 10px;
+  }
+  
+
+  .tagline {
+    padding-bottom: 10px;
+    align-self: center;
+  }
+  
+  .ContentModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+
+  }
+  
+ 
+  .ContentModal__about {
+    padding: 10px;
+   
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: 300;
+  }
+  
+  .ContentModal__title {
+    /* height: 12%; */
+    /* font-size: 5vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ContentModal__description {
+    display: flex;
+    height: 40%;
+    padding: 15px;
+    border-radius: 20px;
+    /* scrollbar-width: thin; Firefox */
+    /* box-shadow: inset 0 0 5px #000000; */
+    text-align: justify;
+  }
+  
+

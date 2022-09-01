@@ -1,6 +1,5 @@
 import { Container } from '@mui/system';
 import './App.css';
-import Header from './components/Header/Header';
 import MainNav from './components/MainNav/MainNav';
 import Trending from './pages/Trending/Trending';
 
@@ -13,7 +12,7 @@ import Series from './pages/Series/Series';
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="app">
         <Container>
 
