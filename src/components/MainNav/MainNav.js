@@ -1,5 +1,4 @@
 import MovieIcon from '@mui/icons-material/Movie';
-import SearchIcon from '@mui/icons-material/Search';
 import TvIcon from '@mui/icons-material/Tv';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import BottomNavigation from '@mui/material/BottomNavigation';
@@ -16,7 +15,6 @@ const MainNav = () => {
         if (value === 0) navigate('/trending');
         else if (value === 1) navigate('/movies');
         else if (value === 2) navigate('/series');
-        // else if (value === 3) navigate('/search');
 
     }, [value,navigate])
 
@@ -42,9 +40,7 @@ const MainNav = () => {
                     label="TV Series"
                     icon={<TvIcon />}
                 />
-                // <BottomNavigationAction
-                //     label="Search"
-                //     icon={<SearchIcon />} />
+           
             </BottomNavigation>
         </Box>
     );
